@@ -1,7 +1,7 @@
 # 🏥 CDC Diabetes Health Indicators Analysis Project
 
 ## 📌 I. Overview
-Dự án này tập trung vào việc phân tích bộ dữ liệu **CDC Diabetes Health Indicators** (năm 2015) nhằm xác định các yếu tố nguy cơ chính dẫn đến bệnh tiểu đường và xây dựng mô hình Máy học (Machine Learning) để dự đoán khả năng mắc bệnh.
+Dự án này tập trung vào việc phân tích bộ dữ liệu **CDC Diabetes Health Indicators** (năm 2015) nhằm xác định các yếu tố nguy cơ chính dẫn đến bệnh tiểu đường và xây dựng mô hình Máy học để dự đoán khả năng mắc bệnh.
 
 - **Nguồn dữ liệu:** Khảo sát BRFSS 2015 của CDC Hoa Kỳ.
 - **Quy mô:** 253,680 bản ghi với 22 biến số sức khỏe.
@@ -75,4 +75,4 @@ Dự án này tập trung vào việc phân tích bộ dữ liệu **CDC Diabete
     ```r
     install.packages(c("tidyverse", "caret", "randomForest", "e1071", "themis", "janitor", "corrplot"))
     ```
-4.  Mở file `.Rmd` và chạy từng chunk hoặc Knit ra file HTML/PDF để xem báo cáo đầy đủ.
+4.  Mở file `.Rmd` và chạy từng chunk, để quan sát rõ hơn các biểu đồ cùng với mục tiêu kq.
